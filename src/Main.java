@@ -7,5 +7,8 @@ public class Main {
 
         dog.MakeSound();
         cat.MakeSound();
+
+        cat.eatFood("Tun");
+        dog.eatFood("Hundekiks");
     }
 }
