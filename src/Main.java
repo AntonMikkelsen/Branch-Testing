@@ -15,5 +15,8 @@ public class Main {
         dog.showMood(false);
 
         System.out.println();
+
+        cat.jumpFeature(20);
+        dog.jumpFeature(30);
     }
 }
