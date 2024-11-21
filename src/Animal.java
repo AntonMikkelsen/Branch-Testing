@@ -8,4 +8,6 @@ public abstract class Animal {
     public abstract boolean eatFood(String foodType);
 
     public abstract String showMood(Boolean mood);
+
+    public abstract void jumpFeature(double distance);
 }

@@ -17,4 +17,9 @@ public class Cat extends Animal{
             System.out.println("hvæser");}
         return null;
         }
+
+    @Override
+    public void jumpFeature(double distance) {
+
     }
+}

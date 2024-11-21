@@ -20,4 +20,9 @@ public class Dog extends Animal{
 
         return null;
     }
+
+    @Override
+    public void jumpFeature(double distance) {
+
+    }
 }
