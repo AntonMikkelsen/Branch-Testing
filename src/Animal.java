@@ -4,4 +4,6 @@ public abstract class Animal {
 
     public abstract void MakeSound();
 
+
+    public abstract boolean eatFood(String foodType);
 }
