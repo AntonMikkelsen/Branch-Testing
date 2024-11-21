@@ -10,4 +10,14 @@ public class Dog extends Animal{
     public boolean eatFood(String foodType) {
         return true;
     }
+
+    @Override
+    public String showMood(Boolean mood) {
+        if (mood){
+            System.out.println("logrer");}
+        else if(!mood){
+            System.out.println("knurrer");}
+
+        return null;
+    }
 }
