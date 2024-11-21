@@ -13,5 +13,7 @@ public class Main {
 
         cat.showMood(true);
         dog.showMood(false);
+
+        System.out.println();
     }
 }
